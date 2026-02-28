@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcf6m8j8w7l6h"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_08fmd"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_08fmd")
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.101961, 0.14902, 0.203922, 1)
+
+[node name="Title" type="Label" parent="."]
+offset_left = 278.0
+offset_top = 160.0
+offset_right = 874.0
+offset_bottom = 234.0
+theme_override_font_sizes/font_size = 54
+text = "Sushi Puzzle"
+horizontal_alignment = 1
+
+[node name="Subtitle" type="Label" parent="."]
+offset_left = 212.0
+offset_top = 252.0
+offset_right = 942.0
+offset_bottom = 316.0
+theme_override_font_sizes/font_size = 28
+text = "Starter Godot project created by Codex"
+horizontal_alignment = 1
+
+[node name="Prompt" type="Label" parent="."]
+offset_left = 232.0
+offset_top = 372.0
+offset_right = 922.0
+offset_bottom = 420.0
+theme_override_font_sizes/font_size = 24
+text = "Press SPACE to print a ready message in the output log."
+horizontal_alignment = 1
